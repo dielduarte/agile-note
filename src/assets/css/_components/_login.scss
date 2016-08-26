@@ -1,9 +1,19 @@
 .login {
-  &-section {
-    width: 100vw;
-    height: 100vh;
+  &__section {
+    @include relative__viewport(100vw, 100vh);
+
     background: url('../img/bg-login.jpeg') no-repeat;
-    background-size: 100% 100%;
+    background-size: 50% 100%;
     margin-bottom: -30px;
+  }
+
+  &__wrapper {
+    @include relative__viewport(50vw, 100vh);
+    float: right;
+  }
+
+  &__title {
+    font-size: 28px;
+    text-align: center;
   }
 }

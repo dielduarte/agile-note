@@ -9,10 +9,10 @@
 	TOOLS
 */
 	//Mixins
-	// @import "_tools/mixins/*";
+	 @import "_tools/mixins/_utils.scss";
 
 	// Placeholders
-	// @import "_tools/placeholders/*";
+	// @import "_tools/placeholders/_utils.scss";
 
 
 
@@ -25,7 +25,7 @@
 /*
 	BASE
 */
-	// @import "_base/**/*";
+	 @import "_base/_base.scss";
 
 /*
 	OBJECTS
