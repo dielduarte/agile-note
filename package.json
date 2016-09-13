@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
-    "test": "mocha --compilers js:babel-core/register -w ./src/test/helpers/browser.js ./src/components/*.spec.js"
+    "test": "mocha --compilers js:babel-core/register -w ./src/test/helpers/browser.js ./src/**/*.spec.js"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -40,6 +40,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react-router": "^2.7.0"
+    "firebase": "^3.3.0",
+    "react-addons-css-transition-group": "^15.3.1",
+    "react-addons-pure-render-mixin": "^15.3.1",
+    "react-addons-transition-group": "^15.3.1",
+    "react-md": "^0.3.7",
+    "react-router": "^2.7.0",
+    "reactfire": "^1.0.0",
+    "webfontloader": "^1.6.26"
   }
 }
